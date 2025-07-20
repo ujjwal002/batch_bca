@@ -1,0 +1,27 @@
+
+
+#home{
+    width: 400px;
+    height: 400px;
+    border: 1px solid red;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around
+}
+
+#masterbedroom{
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+}
+
+.guestroom{
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+    background-color: red;
+}
+
+#logo{
+    color: blue;
+}
