@@ -19,3 +19,8 @@ body{
 #right{
     display: flex;
 }
+
+.main{
+    padding:20px;
+
+}
