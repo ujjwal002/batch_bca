@@ -72,16 +72,25 @@ console.log("hello world");
  
 
 
-console.log(name) // undefined 
-var name;
+// console.log(name) // undefined 
+// var name;
+// function  fun(){ //it will remember the function and give a scoping to that function
+//     console.log(name); //undefined
+//     var name = "john2";  //function scoping
+//     console.log(name); //john2
+// }
+
+// fun();
+//
+
+console.log(name) // 
+var name = "john2";  //global scoping
 function  fun(){ //it will remember the function and give a scoping to that function
     console.log(name); //undefined
-    var name = "john2";  //function scoping
-    console.log(name); //john2
+    
 }
 
 fun();
-//
 
 
 
