@@ -1,0 +1,2 @@
+- read about every operatior in js
+- for loop while loop , conditonal state like if else
