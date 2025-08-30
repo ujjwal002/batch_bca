@@ -1,20 +1,20 @@
-var name = "john";  //global scope
+var name = "john"; 
 
-function fun(){  //global scope
-    console.log(name);  // john. // john.  john         john john
+function fun(){ 
+    console.log(name);  
     name = "john2";  
-    console.log(name); //john2  // john2    john2    john2 jonhn2
+    console.log(name);
 
     teacher = "ujjwal"
     
 }
 
 
-
+console.log(teacher) 
 fun()
-console.log(teacher) //ujjwal.   //reference error.     undefined    reference error. reference error
 
-console.log(name)  //undefined  //john   mehsaan.  john2. john
+
+console.log(name)  
 
 
 

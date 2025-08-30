@@ -1,13 +1,13 @@
 
 
 fun();
-top();  //global scope
+top();  
 
-function fun (){ //global scope
+function fun (){ 
     var name = "hositing";
     console.log(name); 
 }
-function top(){ // global scope
+function top(){ 
     console.log("top");
 }
 

@@ -68,15 +68,15 @@
 
 
 
-orderFood(function(pizaa){
-    orderBiryani(function(biryani){
-        orderDrinks(function(drink){
-            orderWater(function(water){
-                console.log("ear,",pizaa,biryani, drink,water)
-            })
-        })
-    })
-})
+// orderFood(function(pizaa){
+//     orderBiryani(function(biryani){
+//         orderDrinks(function(drink){
+//             orderWater(function(water){
+//                 console.log("ear,",pizaa,biryani, drink,water)
+//             })
+//         })
+//     })
+// })
 
 
 // here think about you are a chef here
@@ -92,10 +92,45 @@ orderFood(function(pizaa){
 // if you do the same thing with promise
 
 
-orderPizza()
-.then(pizza=>orderBiryani())
-.then(burger=>orderBurger())
-.then(coke=>orderCoke())
+// orderPizza()
+// .then(pizza=>orderBiryani())
+// .then(burger=>orderBurger())
+// .then(coke=>orderCoke())
 
+// console.log("hello")
+// setTimeout(function fun(){
+//     console.log("i am setTimeout")
+// },2000)
+
+// console.log("end")
+
+
+
+// you are hitting some api ok , it will sync or async
+
+
+// you are hitting some api here 
+
+// you are using its resonse here
+
+// console.log("response")
+
+// undefined
+
+// 
+
+// const response = hitting some api here
+
+// console.log("response")
+
+
+var response;
+
+setTimeout(function fun(){
+    response = "i am asuync in nature"
+},0)
+
+
+console.log(response)
 
 

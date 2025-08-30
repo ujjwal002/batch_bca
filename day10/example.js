@@ -1,6 +1,6 @@
-function fun(){ //global scope
+function fun(){ 
     console.log(name); 
-    var name = "john2";  //function scoping
+    var name = "john2"; 
     console.log(name); 
 
     teacher = "ujjwal"

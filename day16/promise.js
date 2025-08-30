@@ -21,31 +21,35 @@
 
 
 
-const fun = new Promise((resolve,rejected)=>{
-    setTimeout(()=>{
-        resolve("done")
-    },1000)
-})
+// const fun = new Promise((resolve,rejected)=>{
+//     setTimeout(()=>{
+//         resolve("done")
+//     },1000)
+// })
 
-// // fun.then(value=>console.log(value))
+// // const fun = new Promise((resolve, re))
 
-fun.then(function fun(value){
-    console.log(value)
-})
+// // // fun.then(value=>console.log(value))
+
+// fun.then(function fun(value){
+//     console.log(value)
+// })
 
 // console.log(fun)
 
-// var value = 10
+var value = 10
 
-// const fun = new Promise((resolve,reject)=>{
-    // if(value>10){
-    //     resolve("value is greate that ten ")
-    //     // return "value is greate thatn 10"
-    // }
-    // else{
-    //     reject("value is not greater than 10")
-    //     // return "value is not greater thatn 10"
-    // }
+const fun = new Promise((resolve, reject) => {
+    if (value > 10) {
+        resolve("value is greate that ten ")
+        // return "value is greate thatn 10"
+    }
+    else {
+        reject("value is not greater than 10")
+        // return "value is not greater thatn 10"
+    }
+}
+)
 
 //     const resonse  = axios.get("/getUser") //asyn code 
 
@@ -59,12 +63,12 @@ fun.then(function fun(value){
 //     })
 // })
 
-// fun.then(function gun(value){
-//     console.log("promise is fullfilled",value)
-// })
-// .catch(err=>{
-//     console.log("oops promise got rejected",err)
-// })
+fun.then(function gun(value) {
+    console.log("promise is fullfilled", value)
+})
+    .catch(err => {
+        console.log("oops promise got rejected", err)
+    })
 
 // var value = 10
 

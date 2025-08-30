@@ -1,5 +1,5 @@
 
-const fun = new Promise((resolve,rejected)=>{
+const fun = new Promise((resolve,reject)=>{
     setTimeout(()=>{
         resolve("i am asynchrounouse in nature")
     },1000)
