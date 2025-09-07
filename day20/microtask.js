@@ -47,3 +47,6 @@ console.log("End");
 // functionality like promised will go in microtask , 
 
 // between the macro and micro , micro is given more prioirty 
+
+
+// 

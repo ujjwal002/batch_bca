@@ -20,3 +20,7 @@ setTimeout(()=>{
 },0)
 
 console.log("end")
+
+// start ,end , in to the time, in to the promises, in to the seoc0nd time
+
+// 

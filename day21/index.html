@@ -1,0 +1,75 @@
+<!-- // as you know html is like skeleton (strucrture of body)
+
+// css is the clothes( design and appearance)
+
+javascript is the muscles/brain (make our functional)
+
+// when browser load html , it create dom(tree like strucrture) -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1 id="heading">hello world</h1>
+    <p class="para">this is the para</p>
+    <p class="para1">this is para3</p>
+    <p class="para1">this is para2</p>
+
+    <script>
+
+        let h1 = document.getElementById("heading")
+        let h2 = document.getElementsByClassName("para1")
+
+        // let h3 = document.getSelection
+
+        // const listItem = ["name","content","subject"]
+
+        // let h2 = [p.para1,p.para1]
+
+        console.log(h1)
+
+        console.log(h2)
+
+        console.log(h1.textContent)
+
+        h1.style.color = "red"
+        h1.style.fontSize = "30px"
+
+
+
+        console.log(h2[1].textContent)
+
+
+        let h3 = document.querySelector(".para1")
+
+        let h4 = document.querySelectorAll(".para1")
+
+        console.log("here is h3",h3)
+
+        console.log("this is para4",h4)
+
+
+        
+
+    
+
+    </script>
+
+</body>
+
+</html>
+
+<!-- Documents
+    -html
+    ---head
+    ---body
+       --div
+         -- <h1></h1> -->
