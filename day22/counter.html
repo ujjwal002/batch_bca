@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2 id="count">0</h2>
+
+    <button id="inc">inc</button>
+
+    <button id="dec">dec</button>
+
+    <script>
+
+        let count = 0
+        let h2 = document.getElementById("count")
+        let inc = document.getElementById("inc");
+        let dec = document.getElementById("dec")
+
+        inc.addEventListener("click",function inc(){
+           count++;
+           h2.textContent = count
+        })
+        dec.addEventListener("click",function dec(){
+            count--;
+            h2.textContent = count
+        })
+    </script>
+
+
+
+    
+</body>
+</html>

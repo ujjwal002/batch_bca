@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="list">
+        <li>dogs</li>
+        <li>cats</li>
+        
+    </ul>
+
+    <button id="add">add</button>
+
+    <script>
+
+        let btn = document.getElementById("add")
+
+        let ul = document.getElementById("list")
+
+        btn.addEventListener("click",function fun(){
+
+            let list = document.createElement("li")
+            list.textContent = "lion"
+
+            ul.appendChild(list)
+
+        })
+
+
+
+
+    </script>
+
+
+    
+</body>
+</html>
